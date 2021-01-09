@@ -1,0 +1,1338 @@
+﻿[
+    {
+        "Endpoint": "GET /2/tweets/compliance/jobs",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/compliance/jobs"
+    },
+    {
+        "Endpoint": "GET /2/tweets/compliance/jobs/:id",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/compliance/jobs/:id"
+    },
+    {
+        "Endpoint": "POST /2/tweets/compliance/jobs",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/compliance/jobs"
+    },
+    {
+        "Endpoint": "GET /2/tweets/search/stream",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/search/stream"
+    },
+    {
+        "Endpoint": "GET /2/tweets/search/stream/rules",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/search/stream/rules"
+    },
+    {
+        "Endpoint": "POST /2/tweets/search/stream/rules",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/search/stream/rules"
+    },
+    {
+        "Endpoint": "PUT /2/tweets/:id/hidden",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "PUT",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/:id/hidden"
+    },
+    {
+        "Endpoint": "GET /2/tweets/sample/stream",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/sample/stream"
+    },
+    {
+        "Endpoint": "GET /2/tweets/search/all",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/search/all"
+    },
+    {
+        "Endpoint": "GET /2/tweets/search/recent",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/search/recent"
+    },
+    {
+        "Endpoint": "GET /2/users/:id/mentions",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/users/:id/mentions"
+    },
+    {
+        "Endpoint": "GET /2/users/:id/tweets",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/users/:id/tweets"
+    },
+    {
+        "Endpoint": "GET /2/tweets",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets"
+    },
+    {
+        "Endpoint": "GET /2/tweets/:id",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/tweets/:id"
+    },
+    {
+        "Endpoint": "GET /2/users/:id/followers",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/users/:id/followers"
+    },
+    {
+        "Endpoint": "GET /2/users/:id/following",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/users/:id/following"
+    },
+    {
+        "Endpoint": "GET /2/users",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/users"
+    },
+    {
+        "Endpoint": "GET /2/users/:id",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/users/:id"
+    },
+    {
+        "Endpoint": "GET /2/users/by",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/users/by"
+    },
+    {
+        "Endpoint": "GET /2/users/by/username/:username",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/users/by/username/:username"
+    },
+    {
+        "Endpoint": "GET collections/entries",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/entries.json"
+    },
+    {
+        "Endpoint": "GET collections/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/list.json"
+    },
+    {
+        "Endpoint": "GET collections/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/show.json"
+    },
+    {
+        "Endpoint": "POST collections/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/create.json"
+    },
+    {
+        "Endpoint": "POST collections/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/destroy.json"
+    },
+    {
+        "Endpoint": "POST collections/entries/add",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/entries/add.json"
+    },
+    {
+        "Endpoint": "POST collections/entries/curate",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/entries/curate.json"
+    },
+    {
+        "Endpoint": "POST collections/entries/move",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/entries/move.json"
+    },
+    {
+        "Endpoint": "POST collections/entries/remove",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/entries/remove.json"
+    },
+    {
+        "Endpoint": "POST collections/update",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/collections/update.json"
+    },
+    {
+        "Endpoint": "POST statuses/filter",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://stream.twitter.com/1.1/statuses/filter.json"
+    },
+    {
+        "Endpoint": "GET statuses/home_timeline",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/home_timeline.json"
+    },
+    {
+        "Endpoint": "GET statuses/mentions_timeline",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/mentions_timeline.json"
+    },
+    {
+        "Endpoint": "GET statuses/user_timeline",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/user_timeline.json"
+    },
+    {
+        "Endpoint": "GET favorites/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/favorites/list.json"
+    },
+    {
+        "Endpoint": "GET statuses/lookup",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/lookup.json"
+    },
+    {
+        "Endpoint": "GET statuses/oembed",
+        "API": "twitter-api",
+        "API version": "",
+        "Authentication": "No",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://publish.twitter.com/oembed"
+    },
+    {
+        "Endpoint": "GET statuses/retweeters/ids",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/retweeters/ids.json"
+    },
+    {
+        "Endpoint": "GET statuses/retweets/:id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/retweets/:id.json"
+    },
+    {
+        "Endpoint": "GET statuses/retweets_of_me",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/retweets_of_me.json"
+    },
+    {
+        "Endpoint": "GET statuses/show/:id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/show.json"
+    },
+    {
+        "Endpoint": "POST favorites/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/favorites/create.json"
+    },
+    {
+        "Endpoint": "POST favorites/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/favorites/destroy.json"
+    },
+    {
+        "Endpoint": "POST statuses/destroy/:id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/destroy/:id.json"
+    },
+    {
+        "Endpoint": "POST statuses/retweet/:id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/retweet/:id.json"
+    },
+    {
+        "Endpoint": "POST statuses/unretweet/:id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/unretweet/:id.json"
+    },
+    {
+        "Endpoint": "POST statuses/update",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/update.json"
+    },
+    {
+        "Endpoint": "POST statuses/update_with_media (deprecated)",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/statuses/update_with_media.json"
+    },
+    {
+        "Endpoint": "GET statuses/sample",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://stream.twitter.com/1.1/statuses/sample.json"
+    },
+    {
+        "Endpoint": "GET search/tweets",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/search/tweets.json"
+    },
+    {
+        "Endpoint": "GET lists/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/list.json"
+    },
+    {
+        "Endpoint": "GET lists/members",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/members.json"
+    },
+    {
+        "Endpoint": "GET lists/members/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/members/show.json"
+    },
+    {
+        "Endpoint": "GET lists/memberships",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/memberships.json"
+    },
+    {
+        "Endpoint": "GET lists/ownerships",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/ownerships.json"
+    },
+    {
+        "Endpoint": "GET lists/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/show.json"
+    },
+    {
+        "Endpoint": "GET lists/statuses",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/statuses.json"
+    },
+    {
+        "Endpoint": "GET lists/subscribers",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/subscribers.json"
+    },
+    {
+        "Endpoint": "GET lists/subscribers/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/subscribers/show.json"
+    },
+    {
+        "Endpoint": "GET lists/subscriptions",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/subscriptions.json"
+    },
+    {
+        "Endpoint": "POST lists/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/create.json"
+    },
+    {
+        "Endpoint": "POST lists/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/destroy.json"
+    },
+    {
+        "Endpoint": "POST lists/members/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/members/create.json"
+    },
+    {
+        "Endpoint": "POST lists/members/create_all",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/members/create_all.json"
+    },
+    {
+        "Endpoint": "POST lists/members/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/members/destroy.json"
+    },
+    {
+        "Endpoint": "POST lists/members/destroy_all",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/members/destroy_all.json"
+    },
+    {
+        "Endpoint": "POST lists/subscribers/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/subscribers/create.json"
+    },
+    {
+        "Endpoint": "POST lists/subscribers/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/subscribers/destroy.json"
+    },
+    {
+        "Endpoint": "POST lists/update",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/lists/update.json"
+    },
+    {
+        "Endpoint": "GET followers/ids",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/followers/ids.json"
+    },
+    {
+        "Endpoint": "GET followers/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/followers/list.json"
+    },
+    {
+        "Endpoint": "GET friends/ids",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friends/ids.json"
+    },
+    {
+        "Endpoint": "GET friends/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friends/list.json"
+    },
+    {
+        "Endpoint": "GET friendships/incoming",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friendships/incoming.json"
+    },
+    {
+        "Endpoint": "GET friendships/lookup",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friendships/lookup.json"
+    },
+    {
+        "Endpoint": "GET friendships/no_retweets/ids",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friendships/no_retweets/ids.json"
+    },
+    {
+        "Endpoint": "GET friendships/outgoing",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friendships/outgoing"
+    },
+    {
+        "Endpoint": "GET friendships/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friendships/show.json"
+    },
+    {
+        "Endpoint": "GET users/lookup",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/users/lookup.json"
+    },
+    {
+        "Endpoint": "GET users/search",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/users/search.json"
+    },
+    {
+        "Endpoint": "GET users/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/users/show.json"
+    },
+    {
+        "Endpoint": "POST friendships/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friendships/create.json"
+    },
+    {
+        "Endpoint": "POST friendships/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friendships/destroy.json"
+    },
+    {
+        "Endpoint": "POST friendships/update",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/friendships/update.json"
+    },
+    {
+        "Endpoint": "GET account/settings",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/account/settings.json"
+    },
+    {
+        "Endpoint": "GET account/verify_credentials",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/account/verify_credentials.json"
+    },
+    {
+        "Endpoint": "GET saved_searches/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/saved_searches/list.json"
+    },
+    {
+        "Endpoint": "GET saved_searches/show/:id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/saved_searches/show/:id.json"
+    },
+    {
+        "Endpoint": "GET users/profile_banner",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/users/profile_banner.json"
+    },
+    {
+        "Endpoint": "POST account/remove_profile_banner",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/account/remove_profile_banner.json"
+    },
+    {
+        "Endpoint": "POST account/settings",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/account/settings.json"
+    },
+    {
+        "Endpoint": "POST account/update_profile",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/account/update_profile.json"
+    },
+    {
+        "Endpoint": "POST account/update_profile_banner",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/account/update_profile_banner.json"
+    },
+    {
+        "Endpoint": "POST account/update_profile_image",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/account/update_profile_image.json"
+    },
+    {
+        "Endpoint": "POST saved_searches/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/saved_searches/create.json"
+    },
+    {
+        "Endpoint": "POST saved_searches/destroy/:id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/saved_searches/destroy/:id.json"
+    },
+    {
+        "Endpoint": "GET blocks/ids",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/blocks/ids.json"
+    },
+    {
+        "Endpoint": "GET blocks/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/blocks/list.json"
+    },
+    {
+        "Endpoint": "GET mutes/users/ids",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/mutes/users/ids.json"
+    },
+    {
+        "Endpoint": "GET mutes/users/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/mutes/users/list.json"
+    },
+    {
+        "Endpoint": "POST blocks/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/blocks/create.json"
+    },
+    {
+        "Endpoint": "POST blocks/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/blocks/destroy.json"
+    },
+    {
+        "Endpoint": "POST mutes/users/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/mutes/users/create.json"
+    },
+    {
+        "Endpoint": "POST mutes/users/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/mutes/users/destroy.json"
+    },
+    {
+        "Endpoint": "POST users/report_spam",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/users/report_spam.json"
+    },
+    {
+        "Endpoint": "DELETE custom_profiles/destroy.json",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "DELETE",
+        "Endpoint Uri": "https://api.twitter.com/1.1/custom_profiles/destroy.json"
+    },
+    {
+        "Endpoint": "GET custom_profiles/:id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/custom_profiles/:id.json"
+    },
+    {
+        "Endpoint": "GET custom_profiles/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/custom_profiles/list.json"
+    },
+    {
+        "Endpoint": "POST custom_profiles/new.json",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/custom_profiles/new.json"
+    },
+    {
+        "Endpoint": "GET feedback/events.json",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/feedback/events.json"
+    },
+    {
+        "Endpoint": "GET feedback/show/:id.json",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/feedback/show.json"
+    },
+    {
+        "Endpoint": "POST feedback/create.json",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/feedback/create.json"
+    },
+    {
+        "Endpoint": "DELETE direct_messages/events/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "DELETE",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/events/destroy.json"
+    },
+    {
+        "Endpoint": "GET direct_messages/events/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/events/list.json"
+    },
+    {
+        "Endpoint": "GET direct_messages/events/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/events/show.json"
+    },
+    {
+        "Endpoint": "POST direct_messages/events/new (message_create)",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/events/new.json"
+    },
+    {
+        "Endpoint": "POST direct_messages/indicate_typing",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/indicate_typing.json"
+    },
+    {
+        "Endpoint": "POST direct_messages/mark_read",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/mark_read.json"
+    },
+    {
+        "Endpoint": "DELETE direct_messages/welcome_messages/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "DELETE",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/destroy.json"
+    },
+    {
+        "Endpoint": "DELETE direct_messages/welcome_messages/rules/destroy",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "DELETE",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/rules/destroy.json"
+    },
+    {
+        "Endpoint": "PUT direct_messages/welcome_messages/update",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "PUT",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/update.json"
+    },
+    {
+        "Endpoint": "GET direct_messages/welcome_messages/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/list.json"
+    },
+    {
+        "Endpoint": "GET direct_messages/welcome_messages/rules/list",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/rules/list.json"
+    },
+    {
+        "Endpoint": "GET direct_messages/welcome_messages/rules/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/rules/show.json"
+    },
+    {
+        "Endpoint": "GET direct_messages/welcome_messages/show",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/show.json"
+    },
+    {
+        "Endpoint": "POST direct_messages/welcome_messages/new",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/new.json"
+    },
+    {
+        "Endpoint": "POST direct_messages/welcome_messages/rules/new",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/direct_messages/welcome_messages/rules/new.json"
+    },
+    {
+        "Endpoint": "GET media/upload (STATUS)",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://upload.twitter.com/1.1/media/upload.json?command=STATUS"
+    },
+    {
+        "Endpoint": "POST media/metadata/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://upload.twitter.com/1.1/media/metadata/create.json"
+    },
+    {
+        "Endpoint": "POST media/subtitles/create",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://upload.twitter.com/1.1/media/subtitles/create.json"
+    },
+    {
+        "Endpoint": "POST media/subtitles/delete",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://upload.twitter.com/1.1/media/subtitles/delete.json"
+    },
+    {
+        "Endpoint": "POST media/upload",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://upload.twitter.com/1.1/media/upload.json"
+    },
+    {
+        "Endpoint": "POST media/upload (APPEND)",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://upload.twitter.com/1.1/media/upload.json"
+    },
+    {
+        "Endpoint": "POST media/upload (FINALIZE)",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://upload.twitter.com/1.1/media/upload.json?command=FINALIZE"
+    },
+    {
+        "Endpoint": "POST media/upload (INIT)",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://upload.twitter.com/1.1/media/upload.json"
+    },
+    {
+        "Endpoint": "GET trends/available",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/trends/available.json"
+    },
+    {
+        "Endpoint": "GET trends/closest",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/trends/closest.json"
+    },
+    {
+        "Endpoint": "GET trends/place",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/trends/place.json"
+    },
+    {
+        "Endpoint": "GET geo/id/:place_id",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/geo/id/:place_id.json"
+    },
+    {
+        "Endpoint": "GET geo/reverse_geocode",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/geo/reverse_geocode.json"
+    },
+    {
+        "Endpoint": "GET geo/search",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/geo/search.json"
+    },
+    {
+        "Endpoint": "GET /labs/1/tweets/stream/compliance",
+        "API": "labs",
+        "API version": "1",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/1/tweets/stream/compliance"
+    },
+    {
+        "Endpoint": "GET /labs/1/tweets/stream/covid19",
+        "API": "labs",
+        "API version": "1",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/1/tweets/stream/covid19"
+    },
+    {
+        "Endpoint": "GET /labs/1/tweets/stream/filter",
+        "API": "labs",
+        "API version": "1",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/1/tweets/stream/filter"
+    },
+    {
+        "Endpoint": "GET /labs/1/tweets/stream/filter/rules",
+        "API": "labs",
+        "API version": "1",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/1/tweets/stream/filter/rules"
+    },
+    {
+        "Endpoint": "POST /labs/1/tweets/stream/filter/rules (create)",
+        "API": "labs",
+        "API version": "1",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/labs/1/tweets/stream/filter/rules"
+    },
+    {
+        "Endpoint": "POST /labs/1/tweets/stream/filter/rules (delete)",
+        "API": "labs",
+        "API version": "1",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/labs/1/tweets/stream/filter/rules"
+    },
+    {
+        "Endpoint": "PUT /labs/2/tweets/:id/hidden",
+        "API": "labs",
+        "API version": "2",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "PUT",
+        "Endpoint Uri": "https://api.twitter.com/labs/2/tweets/:id/hidden"
+    },
+    {
+        "Endpoint": "GET /labs/2/tweets/search",
+        "API": "labs",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/2/tweets/search"
+    },
+    {
+        "Endpoint": "GET /labs/1/tweets/stream/sample",
+        "API": "labs",
+        "API version": "1",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/1/tweets/stream/sample"
+    },
+    {
+        "Endpoint": "GET /labs/1/tweets/metrics/private",
+        "API": "labs",
+        "API version": "1",
+        "Authentication": "OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/1/tweets/metrics/private"
+    },
+    {
+        "Endpoint": "GET /labs/2/tweets",
+        "API": "labs",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/2/tweets"
+    },
+    {
+        "Endpoint": "GET /labs/2/tweets/:id",
+        "API": "labs",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/2/tweets/:id"
+    },
+    {
+        "Endpoint": "GET /labs/2/users (lookup by list of IDs)",
+        "API": "labs",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/2/users"
+    },
+    {
+        "Endpoint": "GET /labs/2/users/:id (lookup by ID)",
+        "API": "labs",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/2/users/:id"
+    },
+    {
+        "Endpoint": "GET /labs/2/users/by (lookup by list of usernames)",
+        "API": "labs",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/2/users/by"
+    },
+    {
+        "Endpoint": "GET /labs/2/users/by/:username (lookup by single username)",
+        "API": "labs",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token or OAuth 1.0a User context",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/labs/2/users/by/username/:username"
+    },
+    {
+        "Endpoint": "GET oauth/authenticate",
+        "API": "authentication",
+        "API version": "",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/oauth/authenticate"
+    },
+    {
+        "Endpoint": "GET oauth/authorize",
+        "API": "authentication",
+        "API version": "",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/oauth/authorize"
+    },
+    {
+        "Endpoint": "POST oauth/access_token",
+        "API": "authentication",
+        "API version": "",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/oauth/access_token"
+    },
+    {
+        "Endpoint": "POST oauth/invalidate_token",
+        "API": "authentication",
+        "API version": "1.1",
+        "Authentication": "",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/1.1/oauth/invalidate_token"
+    },
+    {
+        "Endpoint": "POST oauth/request_token",
+        "API": "authentication",
+        "API version": "",
+        "Authentication": "No",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/oauth/request_token"
+    },
+    {
+        "Endpoint": "POST oauth2/invalidate_token",
+        "API": "authentication",
+        "API version": "",
+        "Authentication": "OAuth 1.0a, consumer API keys, application access token \u0026 access token secret",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/oauth2/invalidate_token"
+    },
+    {
+        "Endpoint": "POST oauth2/token",
+        "API": "authentication",
+        "API version": "",
+        "Authentication": "",
+        "Http Method": "POST",
+        "Endpoint Uri": "https://api.twitter.com/oauth2/token"
+    },
+    {
+        "Endpoint": "GET help/configuration",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/help/configuration.json"
+    },
+    {
+        "Endpoint": "GET help/languages",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/help/languages.json"
+    },
+    {
+        "Endpoint": "GET application/rate_limit_status",
+        "API": "twitter-api",
+        "API version": "1.1",
+        "Authentication": "OAuth 1.0a User context or OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/1.1/application/rate_limit_status.json"
+    }
+]
