@@ -1,5 +1,13 @@
 ﻿[
     {
+        "Endpoint": "GET /2/timeline/media",
+        "API": "twitter-api",
+        "API version": "2",
+        "Authentication": "OAuth 2.0 Bearer token",
+        "Http Method": "GET",
+        "Endpoint Uri": "https://api.twitter.com/2/timeline/media"
+    },
+    {
         "Endpoint": "GET /2/tweets/compliance/jobs",
         "API": "twitter-api",
         "API version": "2",
